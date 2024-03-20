@@ -20,7 +20,7 @@ For this approach, the project files must be downloaded locally. After the files
 make
 ```
 ```bash
-./integral.c
+./integral
 ```
 #### Using Dockerfile:
 For this approach, I have already used the Dockerfile included with the project to create a Docker image, available [here](https://hub.docker.com/r/wetzelt07/integral-calculator). To run the application, run these two commands:
@@ -32,4 +32,20 @@ docker run -it wetzelt07/integral-calculator
 ```
 
 ### Labs and In-Class Projects
-Description: 
+Description: This is a collection of a few projects and labs I completed in a Systems Programming class. The first project is a program to calculate voltage and current running through three circuits given an input voltage and resistance in ohms. The second project is a simple two player hangman game where one player inputs a word and the other player will try to guess the word.
+
+Running the Circuit Lab: To run the circuit lab, download the source code and Makefile, then navigate to the directory where the source code is and enter these two commands:
+```bash
+make
+```
+```bash
+./circuit_lab
+```
+
+Running the Hangman Lab: To run the circuit lab, download the source code and Makefile, then navigate to the directory where the source code is and enter these two commands:
+```bash
+make
+```
+```bash
+./hangman_lab
+```
