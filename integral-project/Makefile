@@ -1,5 +1,5 @@
 intproj: integral.o functions.o
-	gcc integral.o functions.o -o intproj
+	gcc integral.o functions.o -o intproj -lm
 
 integral.o: integral.c
 	gcc -g -Wall -c integral.c -o integral.o

@@ -11,14 +11,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "LLnode.h"  // Contains LLNode definition, function prototypes
+#include "LLnode.h"
 
-/*** U T I L I T Y   F U N C T I O N ***/
+// Utility function
 char *readLine();    // Reads string from input and dynamically allocates space
 
 int main(void) {
     LLnode * first = NULL;     // Pointer to start of list
-    LLnode * temp;
     char   * cmd   = NULL;     // Input command
     int      inVal;            // Input value
     char     junk;             // Used to hold newline
